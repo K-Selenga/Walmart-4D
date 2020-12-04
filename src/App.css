@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+.navbar {
+  background-color: #427d00;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  height: 210px;
+}
+.logo {
+  width: 128px;
+  height: 30.91px;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  font-size: 10px;
+}
+.white {
+  color: white;
+}
+.first {
+  padding: 30px 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.square30 {
+  height: 30px;
+  width: 30px;
+  color: white;
+  z-index: 3;
+}
+.squarepin {
+  width: 13.17px;
+  height: 19.02px;
+  padding: 10px;
+  z-index: 3;
+}
+.pickup {
+  font-size: 16px;
+}
+.squarearrow {
+  z-index: 3;
+
+  height: 28.4px;
+  width: 16.34px;
+  margin: auto 10px auto 120px;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 40px;
+}
+.searchImg {
+  position: absolute;
+  margin: 100px auto auto 10px;
+}
+.searchInput {
+  position: absolute;
+  z-index: 3;
+  width: 250px;
+  height: 30px;
+  margin-left: -140px;
+  border: none;
+  background: transparent;
+  color: #427d00;
+}
+.third {
+  display: block;
+}

@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MealsHome from './components/MealsHome/MealsHome';
 import GroceryHome from './components/GroceryHome/GroceryHome';
 import './App.css';
+import "./App.css";
+import NavBar from "./components/navbar";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
           <Route path="/meals-home" component={MealsHome} />
         </Switch>
       </BrowserRouter>
+      <NavBar />
     </div>
   );
 }
