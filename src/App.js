@@ -1,10 +1,15 @@
-
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import './App.css';
+import Info from './components/info'
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's get this party started!</h1>
+     <BrowserRouter>
+     <Switch>
+       <Route path='/' component={Info}/>
+     </Switch>
+     </BrowserRouter>
     </div>
   );
 }
