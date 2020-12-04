@@ -6,7 +6,7 @@ import tacos from '../../assets/tacos.png';
 import pizza from '../../assets/pizza.png';
 import pasta from '../../assets/pasta.png';
 import soup from '../../assets/soup.png';
-
+import { Link } from 'react-router-dom';
 
 function Home() {
   return(
@@ -20,7 +20,7 @@ function Home() {
         <h1 className="home__title">Popular</h1>
         <div className="home__popular">          
           <div className="home__item">
-            <img className="home__img" src={spag} />
+          <Link to="/info"><img className="home__img" src={spag} /></Link>
             <p className="home__name">Spaghetti</p>
           </div>
           <div className="home__item">
