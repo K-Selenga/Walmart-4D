@@ -15,7 +15,7 @@ function GroceryHome() {
       <div className="home__order-btn">
         <p className="home__order-text">Order fresh groceries online</p>
         <p className="home__book">Book a slot</p>
-        <img className="home__icon-right" src={iconright}/>
+        <img className="home__icon-right" src={iconright} alt='some value'/>
       </div>
       <div className="home__hero2">
         <Link to="/meals-home"> <p className="home__hero-title">Shop Meals</p></Link> 
@@ -24,27 +24,27 @@ function GroceryHome() {
         <h1 className="home__title">Shop Grocery Aisle</h1>
         <div className="home__popular">          
           <div className="home__item">
-            <img className="home__img" src={fruit} />
+            <img className="home__img" src={fruit} alt='some value' />
             <p className="home__name">Fruits &<br></br>vegetables</p>
           </div>
           <div className="home__item">
-            <img className="home__img" src={dairy} />
+            <img className="home__img" src={dairy} alt='some value'/>
             <p className="home__name">Dairy & eggs</p>
           </div>
           <div className="home__item">
-            <img className="home__img" src={meat} />
+            <img className="home__img" src={meat} alt='some value' />
             <p className="home__name">Meat &<br></br>seafood</p>
           </div>
           <div className="home__item">
-            <img className="home__img" src={bread} />
+            <img className="home__img" src={bread} alt='some value' />
             <p className="home__name">Bakery</p>
           </div>
           <div className="home__item">
-            <img className="home__img" src={cake} />
+            <img className="home__img" src={cake} alt='some value' />
             <p className="home__name">Desserts</p>
           </div>
           <div className="home__item">
-            <img className="home__img" src={drink} />
+            <img className="home__img" src={drink} alt='some value' />
             <p className="home__name">Beverages</p>
           </div>
         </div>
