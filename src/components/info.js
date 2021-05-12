@@ -1,4 +1,4 @@
-import main from '../assets/fi-keto-meal-prep 1.png'
+//import main from '../assets/fi-keto-meal-prep 1.png'
 import upload from '../assets/upload.svg'
 import './info.scss'
 function Info (){
