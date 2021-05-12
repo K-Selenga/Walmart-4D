@@ -16,7 +16,7 @@ function Info (){
             </div>
 
             <div className="mainImg">
-                <img className="img" src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg"/>
+                <img className="img" src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg" alt='some value'/>
             </div>
             <div className="price-container">
                 <div className="price">
@@ -24,7 +24,7 @@ function Info (){
                     <u className="price__text">or less</u>
                 </div>
                 <div className="upload">
-                    <img className="upload__img" src={upload}/>
+                    <img className="upload__img" src={upload} alt='some value'/>
                 </div>
             </div>
                 <p className="numberMeals">per meal</p>
@@ -70,7 +70,7 @@ function Info (){
                     <button className="ingredient__add">Add All</button>
                 </div>
                 <div className="ingredient__container">
-                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Enlarge/889/160/6000201889160.jpg"/>
+                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Enlarge/889/160/6000201889160.jpg" alt='some value'/>
                     <div className="actions">
                         <p className="action__title">Quantity</p>
                         <div className="quantity">1</div>
@@ -79,7 +79,7 @@ function Info (){
                     </div>
                 </div>
                 <div className="ingredient__container">
-                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Enlarge/094/538/6000200094538.jpg"/>
+                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Enlarge/094/538/6000200094538.jpg" alt='some value'/>
                     <div className="actions">
                         <p className="action__title">Quantity</p>
                         <div className="quantity">1</div>
@@ -88,7 +88,7 @@ function Info (){
                     </div>
                 </div>
                 <div className="ingredient__container">
-                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Large/_96/745/96745.jpg"/>
+                    <img className="ingredientImg" src="https://i5.walmartimages.ca/images/Large/_96/745/96745.jpg" alt='some value'/>
                     <div className="actions">
                         <p className="action__title">Quantity</p>
                         <div className="quantity">1</div>
@@ -97,7 +97,7 @@ function Info (){
                     </div>
                 </div>
                 <div className="ingredient__container">
-                    <img className="ingredientImg"src="https://i5.walmartimages.ca/images/Enlarge/881/335/999999-605388881335.jpg"/>
+                    <img className="ingredientImg"src="https://i5.walmartimages.ca/images/Enlarge/881/335/999999-605388881335.jpg" alt='some value'/>
                     <div className="actions">
                         <p className="action__title">Quantity</p>
                         <div className="quantity">1</div>
@@ -114,9 +114,9 @@ function Info (){
                     <p className="review__arrow">{">"} </p>
                 </div>
                 <div className="image__container">
-                    <img className="image__content"src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg"/>
-                    <img className="image__content"src="https://valentinascorner.com/wp-content/uploads/2019/08/Taco-Bowl-Recipe-1.jpg"/>
-                    <img className="image__content" src="https://cafedelites.com/wp-content/uploads/2018/07/Chicken-Avocado-Burrito-Bowl-IMAGE-1.jpg"/>
+                    <img className="image__content"src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg" alt='some value'/>
+                    <img className="image__content"src="https://valentinascorner.com/wp-content/uploads/2019/08/Taco-Bowl-Recipe-1.jpg" alt='some value'/>
+                    <img className="image__content" src="https://cafedelites.com/wp-content/uploads/2018/07/Chicken-Avocado-Burrito-Bowl-IMAGE-1.jpg" alt='some value'/>
                 </div>
         </div>
         </div>
